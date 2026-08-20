@@ -7,7 +7,6 @@ import com.actitime.pages.CreateNewCustomerPage;
 import com.actitime.pages.HomePage;
 import com.actitime.pages.TaskPage;
 import com.actitime.utility.BasePage;
-import com.actitime.utility.Hooks;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;

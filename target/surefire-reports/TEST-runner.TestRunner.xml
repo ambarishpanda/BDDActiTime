@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="91.613" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime\target\test-classes;C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime\target\classes;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-java\7.34.6\cucumber-java-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-core\7.34.6\cucumber-core-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin\7.34.6\cucumber-gherkin-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.6\cucumber-gherkin-messages-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\messages-ndjson\0.3.5\messages-ndjson-0.3.5.jar;C:\Users\Asus\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Asus\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\datatable\7.34.6\datatable-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-plugin\7.34.6\cucumber-plugin-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\docstring\7.34.6\docstring-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-testng\7.34.6\cucumber-testng-7.34.6.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Asus\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.46.0\selenium-java-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\Asus\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.46.0\selenium-chrome-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.46.0\selenium-chromium-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.46.0\selenium-devtools-latest-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.46.0\selenium-devtools-v148-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.46.0\selenium-devtools-v149-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.46.0\selenium-devtools-v150-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.46.0\selenium-edge-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.46.0\selenium-firefox-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.46.0\selenium-ie-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.46.0\selenium-safari-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\Asus\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\Asus\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Asus\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\Asus\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Asus\AppData\Local\Temp\surefire206920214333127448\surefirebooter-20260820145652937_3.jar C:\Users\Asus\AppData\Local\Temp\surefire206920214333127448 2026-08-20T14-56-51_210-jvmRun1 surefire-20260820145652937_1tmp surefire_0-20260820145652937_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime\target\test-classes;C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime\target\classes;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-java\7.34.6\cucumber-java-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-core\7.34.6\cucumber-core-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin\7.34.6\cucumber-gherkin-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.34.6\cucumber-gherkin-messages-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\gherkin\36.1.0\gherkin-36.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\messages\30.1.0\messages-30.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\messages-ndjson\0.3.5\messages-ndjson-0.3.5.jar;C:\Users\Asus\.m2\repository\io\cucumber\pretty-formatter\2.4.1\pretty-formatter-2.4.1.jar;C:\Users\Asus\.m2\repository\io\cucumber\query\14.7.0\query-14.7.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\teamcity-formatter\0.2.0\teamcity-formatter-0.2.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\testng-xml-formatter\0.7.0\testng-xml-formatter-0.7.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\usage-formatter\0.1.0\usage-formatter-0.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\tag-expressions\8.1.0\tag-expressions-8.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-expressions\18.1.0\cucumber-expressions-18.1.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-json-formatter\0.3.2\cucumber-json-formatter-0.3.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\datatable\7.34.6\datatable-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-plugin\7.34.6\cucumber-plugin-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\docstring\7.34.6\docstring-7.34.6.jar;C:\Users\Asus\.m2\repository\io\cucumber\html-formatter\22.3.0\html-formatter-22.3.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\junit-xml-formatter\0.11.0\junit-xml-formatter-0.11.0.jar;C:\Users\Asus\.m2\repository\io\cucumber\ci-environment\12.0.0\ci-environment-12.0.0.jar;C:\Users\Asus\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Asus\.m2\repository\io\cucumber\cucumber-testng\7.34.6\cucumber-testng-7.34.6.jar;C:\Users\Asus\.m2\repository\org\testng\testng\7.12.0\testng-7.12.0.jar;C:\Users\Asus\.m2\repository\org\slf4j\slf4j-api\2.0.16\slf4j-api-2.0.16.jar;C:\Users\Asus\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\Asus\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-java\4.46.0\selenium-java-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-api\4.46.0\selenium-api-4.46.0.jar;C:\Users\Asus\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.46.0\selenium-chrome-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.46.0\selenium-chromium-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-json\4.46.0\selenium-json-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.46.0\selenium-manager-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-latest\4.46.0\selenium-devtools-latest-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v148\4.46.0\selenium-devtools-v148-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v149\4.46.0\selenium-devtools-v149-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v150\4.46.0\selenium-devtools-v150-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.46.0\selenium-edge-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.46.0\selenium-firefox-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-http\4.46.0\selenium-http-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.46.0\selenium-ie-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.46.0\selenium-remote-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\com\google\guava\guava\33.6.0-jre\guava-33.6.0-jre.jar;C:\Users\Asus\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\Asus\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Asus\.m2\repository\com\google\errorprone\error_prone_annotations\2.47.0\error_prone_annotations-2.47.0.jar;C:\Users\Asus\.m2\repository\com\google\j2objc\j2objc-annotations\3.1\j2objc-annotations-3.1.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-api\1.64.0\opentelemetry-api-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-context\1.64.0\opentelemetry-context-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-common\1.64.0\opentelemetry-common-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.64.0\opentelemetry-exporter-logging-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.64.0\opentelemetry-sdk-common-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.64.0\opentelemetry-sdk-extension-autoconfigure-spi-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.64.0\opentelemetry-sdk-extension-autoconfigure-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.64.0\opentelemetry-sdk-trace-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.64.0\opentelemetry-sdk-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.64.0\opentelemetry-sdk-metrics-1.64.0.jar;C:\Users\Asus\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.64.0\opentelemetry-sdk-logs-1.64.0.jar;C:\Users\Asus\.m2\repository\net\bytebuddy\byte-buddy\1.18.11\byte-buddy-1.18.11.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-os\4.46.0\selenium-os-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.46.0\selenium-safari-driver-4.46.0.jar;C:\Users\Asus\.m2\repository\org\seleniumhq\selenium\selenium-support\4.46.0\selenium-support-4.46.0.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi\5.5.1\poi-5.5.1.jar;C:\Users\Asus\.m2\repository\commons-codec\commons-codec\1.20.0\commons-codec-1.20.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-collections4\4.5.0\commons-collections4-4.5.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Asus\.m2\repository\commons-io\commons-io\2.21.0\commons-io-2.21.0.jar;C:\Users\Asus\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\Asus\.m2\repository\org\apache\logging\log4j\log4j-api\2.24.3\log4j-api-2.24.3.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml\5.5.1\poi-ooxml-5.5.1.jar;C:\Users\Asus\.m2\repository\org\apache\poi\poi-ooxml-lite\5.5.1\poi-ooxml-lite-5.5.1.jar;C:\Users\Asus\.m2\repository\org\apache\xmlbeans\xmlbeans\5.3.0\xmlbeans-5.3.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-compress\1.28.0\commons-compress-1.28.0.jar;C:\Users\Asus\.m2\repository\org\apache\commons\commons-lang3\3.18.0\commons-lang3-3.18.0.jar;C:\Users\Asus\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Asus"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Users\Asus\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Asus\AppData\Local\Temp\surefire206920214333127448\surefirebooter-20260820145652937_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="Asus"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\Asus\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\Asus\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\Asus\OneDrive\Desktop\selenium practice\bddActitime"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Asus\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Asus/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin/server;C:/Users/Asus/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.7.v20250502-0916/jre/bin;C:\Program Files\ImageMagick-7.1.2-Q16-HDRI;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\NVIDIA Corporation\NVIDIA App\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk-21\bin;C:\apache-maven-3.9.10\bin;C:\Program Files\Git\cmd;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\AppData\Local\Microsoft\WinGet\Links;;C:\Users\Asus\OneDrive\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Create Edit and Delete Customer&quot;, &quot;ActiTime Customer Management&quot;](1)" classname="runner.TestRunner" time="22.396">
+    <system-out><![CDATA[username element is displayed and enabled
+2026-08-20T09:27:00.881393200Z main ERROR Log4j API could not find a logging provider.
+password textbox is displayed and enabled
+keepme logged in checkbox is displayed and enabled
+keepme loggedin checkbox is selected :true
+User is logged into ActiTime application
+navigated to task page
+Customer created successfully
+Customer edited successfully
+Customer deleted successfully
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Aug 20, 2026 2:56:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 151, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 151
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create Edit and Delete Leave Type&quot;, &quot;ActiTime Leave Type Management&quot;](2)" classname="runner.TestRunner" time="26.984">
+    <system-out><![CDATA[username element is displayed and enabled
+password textbox is displayed and enabled
+keepme logged in checkbox is displayed and enabled
+keepme loggedin checkbox is selected :true
+User is logged into ActiTime application
+entername textfield is displayed and enabled
+Leave type created successfully
+Leave type edited successfully
+Leave type deleted successfully
+]]></system-out>
+    <system-err><![CDATA[Aug 20, 2026 2:57:18 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 151, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 151
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create, Edit and Delete User&quot;, &quot;Login Create Edit Delete User Logout&quot;](3)" classname="runner.TestRunner" time="23.47">
+    <system-out><![CDATA[username element is displayed and enabled
+password textbox is displayed and enabled
+keepme logged in checkbox is displayed and enabled
+keepme loggedin checkbox is selected :true
+user navigate to home page
+navigated to User page
+enter firstname textfield is displayed and enabled
+enter lastname textfield is displayed and enabled
+enter email textfield is displayed and enabled
+enter firstname textfield is displayed and enabled
+enter lastname textfield is displayed and enabled
+enter email textfield is displayed and enabled
+enter email textfield is displayed and enabled
+]]></system-out>
+    <system-err><![CDATA[Aug 20, 2026 2:57:45 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 151, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 151
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Create Edit and Delete Type of Work&quot;, &quot;ActiTime Work Management&quot;](4)" classname="runner.TestRunner" time="17.731">
+    <failure message="invalid session id&#10;Build info: version: &apos;4.46.0&apos;, revision: &apos;df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [cb96a0d88931d3453adb67200ce79d2e, findElement {using=xpath, value=//div[text()=&apos;Save &amp; Send Invitation&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54665}, goog:processID: 26636, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cb96a0d88931d3453adb67200ce79d2e" type="org.openqa.selenium.NoSuchSessionException"><![CDATA[org.openqa.selenium.NoSuchSessionException: 
+invalid session id
+Build info: version: '4.46.0', revision: 'df5a634 df5a6341cbb5f8f06b836bd595752775627c80dc'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [cb96a0d88931d3453adb67200ce79d2e, findElement {using=xpath, value=//div[text()='Save & Send Invitation']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 151.0.7922.140, chrome: {chromedriverVersion: 151.0.7922.138 (41fa8244239..., userDataDir: C:\Users\Asus\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54665}, goog:processID: 26636, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54665/devtoo..., se:cdpVersion: 151.0.7922.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: cb96a0d88931d3453adb67200ce79d2e
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:143)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:196)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:217)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:626)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:173)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:400)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy20.getWrappedElement(Unknown Source)
+	at org.openqa.selenium.remote.WebElementToJsonConverter.apply(WebElementToJsonConverter.java:50)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:509)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:921)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:682)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:553)
+	at com.actitime.pages.AddUserPage.clickOnSave(AddUserPage.java:70)
+	at stepDefinition.LoginCreateEditDeleteUserLogout.user_clicks_on_save_button(LoginCreateEditDeleteUserLogout.java:43)
+	at ✽.User clicks on Save button(file:///C:/Users/Asus/OneDrive/Desktop/selenium%20practice/bddActitime/src/test/resources/features/LoginCreateEditDeleteWorkLogout.feature:11)
+]]></failure>
+    <system-out><![CDATA[username element is displayed and enabled
+password textbox is displayed and enabled
+keepme logged in checkbox is displayed and enabled
+keepme loggedin checkbox is selected :true
+User is logged into ActiTime application
+entername textfield is displayed and enabled
+]]></system-out>
+    <system-err><![CDATA[Aug 20, 2026 2:58:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 151, returning the closest version; found: 150; Please update to a Selenium version that supports CDP version 151
+]]></system-err>
+  </testcase>
+</testsuite>
